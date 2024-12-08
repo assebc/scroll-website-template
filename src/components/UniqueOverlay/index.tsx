@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useTransform } from "framer-motion";
 import { useWrapperScroll } from "../Model";
-import { Container, Header, Footer } from "./styles";
+import { Container, Footer } from "./styles";
 
 export const UniqueOverlay: FC = () => {
     
@@ -10,20 +10,20 @@ export const UniqueOverlay: FC = () => {
 
     return (
         <Container>
-            <Header>
-                <img src="/favicon.png" width={120}/>
-            </Header>
+            {/* <Header>
+                <img src="/favicon.png" width={32} />
+            </Header> */}
     
             <Footer style={{ opacity }}>
                 <ul>
                     <li>
-                        <a href="https://bitsway.dev">Scroll</a>
+                        <a href="https://cbessa.pt">Scroll</a>
                     </li>
                     <li>
-                        <a href="https://bitsway.dev">Website</a>
+                        <a href="https://cbessa.pt">Website</a>
                     </li>
                     <li>
-                        <a href="https://bitsway.dev">Template</a>
+                        <a href="https://cbessa.pt">Template</a>
                     </li>
                 </ul>
             </Footer>
